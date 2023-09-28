@@ -34,10 +34,12 @@ router.post("/get-token-context", function (req, res, next) {
   res.json({
     errcode: 0,
     errmsg: "success",
-    timestamp: timestamp,
-    appId: appId,
-    state: state,
-    signature: signature,
+    data: {
+      timestamp: timestamp,
+      appId: appId,
+      state: state,
+      signature: signature,
+    },
   });
 });
 
