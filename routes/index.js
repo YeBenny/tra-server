@@ -1,8 +1,8 @@
 var express = require("express");
 var router = express.Router();
 
-var appId = "vmESwj27uvU5Rl7HbJ1d2o45sxg7DH4UE1g6o8zs";
-var appSecret = "MAPQBU7uyBdy16nU4mivCNPwAFmAz8pmADNz8gcYgc";
+var appId = "YKBjNAOlQW3U7X8lJbu6KgaNKVE0E3yxRwhTv2gNV4";
+var appSecret = "2hiZuhCku6dOHh0BHQe3riCe9nOn1iusZTP0Ab1Bw";
 var state = "bennyye";
 
 var hash256 = function (string) {
